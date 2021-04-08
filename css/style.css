@@ -20,4 +20,33 @@
 
 .color-grey {
     background-color: #f9f9f9;
+    /* padding-top: 100px; */
+}
+
+.blue-circle {
+    background-color: #428bca;
+    border-radius: 50%;
+}
+
+.blue-circle.images {
+    box-sizing: content-box;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .images {
+        padding-top: 10px;
+    }
+
+    .blue-circle.images {
+        box-sizing: content-box;
+        padding: 15px;
+        margin-top: 20px;
+    }
 }
